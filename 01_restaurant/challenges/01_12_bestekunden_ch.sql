@@ -10,3 +10,4 @@ FROM Bestellungen
 JOIN Kunden ON Kunden.KundenID = Bestellungen.KundenID
 GROUP BY Kunden.KundenID, Kunden.Vorname, Kunden.Nachname, Kunden.Email
 ORDER BY Anzahl_Bestellungen DESC
+LIMIT 15
