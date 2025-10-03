@@ -5,11 +5,8 @@
 
 
 SELECT 
-
 Vorname
 , Nachname
 , Email
-
 FROM Kunden
-
 ORDER BY Nachname ASC

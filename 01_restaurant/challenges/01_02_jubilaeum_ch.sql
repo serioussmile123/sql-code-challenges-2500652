@@ -5,3 +5,9 @@
 -- die sie mitbringen will zugeordnet sein.
 
 -- Tipp: SQLite hat zwei verschiedene Zahlen-Datentypen INTEGER und REAL.
+
+
+CREATE TABLE Jubilaeum (
+    ID INT,
+    Anzahl_Personen INT
+);
