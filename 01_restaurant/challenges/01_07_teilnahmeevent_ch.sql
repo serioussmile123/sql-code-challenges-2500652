@@ -9,7 +9,12 @@ FROM Kunden
 WHERE Email = 'atapley2j@kinetecoinc.com';
 
 INSERT INTO Jubilaeum (ID, Anzahl_Personen)
-VALUES ('92', '3');
+VALUES ('92', '4');
 
 SELECT *
 FROM Jubilaeum;
+
+UPDATE Jubilaeum
+SET Anzahl_Personen = '4'
+WHERE ID = '92';
+
